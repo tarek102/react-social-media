@@ -1,0 +1,90 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+nav {
+  max-width: 100%;
+  background-color: #1877f2;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 25px;
+  align-items: center;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: none;
+  text-decoration: none;
+  color: #f8f8f8;
+}
+
+.user-info {
+  display: flex;
+  gap: 15px;
+}
+
+.user-info h3 {
+  font-size: 16px;
+  color: #f8f8f8;
+}
+
+.user-info button {
+  padding: 10px 15px;
+  border-radius: 15px;
+  border: none;
+  background-color: #42b72a;
+  color: #f8f8f8;
+  font-weight: 600;
+}
+
+.menu-links {
+  display: flex;
+  gap: 15px;
+}
+
+.create-post {
+  display: flex;
+  justify-content: center;
+  background-color: #11161d;
+  height: 85vh;
+  align-items: center;
+}
+
+.create-post form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+
+.create-post form input:nth-child(1),
+.create-post form textarea {
+  padding: 20px;
+  border-radius: 25px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.create-post form input[type="submit"] {
+  background-color: #42b72a;
+  padding: 20px;
+  width: 100%;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: none;
+  text-decoration: none;
+  color: #f8f8f8;
+}
+
+.create-post form p {
+  color: red;
+}
